@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito";
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .calculator {
+  background-color: #0c285f;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container .calculator form input {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  border: 0;
+  outline: 0;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container .calculator form .display {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .calculator form div:first-child {
+  background-color: #7c0101;
+  border-radius: 3px;
+}
+.container .calculator form .display input {
+  font-size: 45px;
+  box-shadow: none;
+  text-align: right;
+  flex: 1;
+}
+.container .calculator form .equal {
+  width: 145px;
+}
+.container .calculator form .operator {
+  color: #33ffd8;
+}
